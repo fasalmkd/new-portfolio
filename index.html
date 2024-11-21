@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Protfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e3bf144616.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars " onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>UI/UX Designer</p>
+            <h1>Hi, I'm <span> Muhammed <br>Fasal</span> from India</h1>
+        </div>
+    </div>
+</div>
+<!--------------------about------------------>
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/fasal (1).png" alt="">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Hi, I'm Muhammed Fasal, a passionate web developer with expertise in UI/UX design, website development, and Shopify development. I enjoy crafting engaging and user-friendly digital experiences. With a strong attention to detail and a commitment to excellence, I aim to deliver solutions that help businesses grow and thrive online.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI?UX</span><br>Designing Web/App Interfaces</li>
+                        <li><span>Shopify Developer</span><br>Shopify Development</li>
+                        <li><span>Web Development</span><br>Web site Development</li>
+                    </ul>
+
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Communication Skills</span><br>Python Programming</li>
+                        <li><span>Management skills</span><br>Version Control</li>
+                        <li><span>Web Development</span><br>Problem-Solving</li>
+                    </ul>
+
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2020- 2023</span><br>Bachelor of Arts in Sociology</li>
+                        <li><span>03/2023- 08/2023</span><br>Certified Advance Python Web Developer</li>
+                        <li><span>2023 - 2024</span><br>Cyber Security Professional</li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-----------------------------services---------------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Building responsive, fast-loading, and scalable websites.</p>
+                <a href="#">Lern more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>UI/UX Design</h2>
+                <p>Creating intuitive, visually appealing interfaces with a focus on user experience.</p>
+                <a href="#">Lern more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-shopify"></i>  
+                <h2>Shopify Design</h2>
+                <p>Custom Shopify themes and functionalities to enhance e-commerce experiences.
+                </p>
+                <a href="#">Lern more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!------------------------portfolio---------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <p>Explore some of the projects I've worked on, showcasing my skills in design and development. <br>Each project is tailored to meet the client's needs, ensuring both functionality and aesthetics come together seamlessly.</p>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png" >
+                <div class="layer">
+                    <h3>Social Meadia Dating App</h3>
+                    <p>experienced with a intership from GVR Learn buds group. we making a Dating and matrimoni app. and its a teamwork project</p>
+                    <a href="https://github.com/fasalmkd/DatingAppProject-B4-B10"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png" >
+                <div class="layer">
+                    <h3>My own Portfolio Web page</h3>
+                    <p>Its my own project for my own portfoilio. Its for my better experience </p>
+                    <a href="https://fasalmkd.github.io/My-portfolio/"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png" >
+                <div class="layer">
+                    <h3>Manorama Web Page</h3>
+                    <p>I make a manorama web page with HTML and CSS in my stady time. for my better skill making. its my first project after study the html and css </p>
+                    <a href="https://fasalmkd.github.io/manorama/"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+<!-------------------------Contact-------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>fasalmuhammed562@gmail.com</p>
+                <p><i class="fa-duotone fa-solid fa-phone"></i>9562131650</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/fasifasalmkd.fasifasalmkd.7"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href="https://www.instagram.com/_fasssll/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/muhammed-fasal-ba595230b/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href=""><i class="fa-brands fa-square-twitter"></i></a>
+                </div>
+                <a href="images/my-cv.pdf" download class=" btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright ©  Fasal. Made with   <i class="fa-solid fa-heart"></i> Own Project</p>
+    </div>
+</div>
+
+
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for (tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link")
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+        
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+
+    }
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyoA2bVMB6BXSR6LRKjj5rmJ1kYGaIM0-3VRAj0fX4FFREhogYqhn2td5UiCoN0bCU4Kg/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent  successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
